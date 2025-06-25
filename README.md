@@ -8,7 +8,7 @@ This example shows a simple implementation of a queue with a defined length that
 
 ## Building
 
-This project is a Gradle project that can be developed in any IDE that supports the Gradle build system (IntelliJ IDEA, Eclipse with Buildship, Netbeans).
+This project is a [Gradle](https://gradle.org) project that can be developed in any IDE that supports the [Gradle](https://gradle.org) build system ([IntelliJ IDEA](https://www.jetbrains.com/idea/), [Eclipse](https://www.eclipse.org) with [Buildship](https://projects.eclipse.org/projects/tools.buildship), [Netbeans](https://netbeans.apache.org)).
 
 To build the project run
 
@@ -26,4 +26,4 @@ in Linux to build the project.
 
 ## Dependencies
 
-This project requires OpenJDK 21.
+This project requires OpenJDK 21, for example from [Azul Systems](https://www.azul.com/downloads/?version=java-21-lts&package=jdk#zulu).
