@@ -5,3 +5,7 @@
 build/
 bin/
 
+# Ignore Eclipse project-specific cache directory
+.settings/
+.classpath
+.project
