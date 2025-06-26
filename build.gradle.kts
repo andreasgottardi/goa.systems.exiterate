@@ -7,8 +7,12 @@ repositories {
 }
 
 dependencies {
-    testImplementation("org.junit.jupiter:junit-jupiter:5.12.1")
-    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+
+    // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter
+    testImplementation("org.junit.jupiter:junit-jupiter:5.13.1")
+
+    // https://mvnrepository.com/artifact/org.junit.platform/junit-platform-launcher
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher:1.13.1")
     
     // https://mvnrepository.com/artifact/org.slf4j/slf4j-api
     implementation("org.slf4j:slf4j-api:2.0.17")
