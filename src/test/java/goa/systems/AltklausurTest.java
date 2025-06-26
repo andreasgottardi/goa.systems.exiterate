@@ -3,6 +3,7 @@
  */
 package goa.systems;
 
+import org.junit.jupiter.api.Assertions;
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -22,9 +23,10 @@ class AltklausurTest {
 		assertDoesNotThrow(() -> {
 			bq.addJob(new Job("1"));
 		});
-		assertThrows(QueueFullException.class, () -> {
+		QueueFullException ex = assertThrows(QueueFullException.class, () -> {
 			bq.addJob(new Job("2"));
 		});
+                Assertions.assertNotNull(ex);
 	}
 
 	@Test

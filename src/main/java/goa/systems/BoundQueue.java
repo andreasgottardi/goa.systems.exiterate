@@ -4,9 +4,9 @@ import java.util.Iterator;
 
 public class BoundQueue implements Iterable<Job> {
 
-	private Job[] jobs;
+	private final Job[] jobs;
 	private int end;
-	private int capacity;
+	private final int capacity;
 
 	public BoundQueue(int capacity) {
 		this.capacity = capacity;
